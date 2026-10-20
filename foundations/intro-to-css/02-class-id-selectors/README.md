@@ -20,6 +20,9 @@ Quick tip: in VS Code, you can change which format colors are displayed in RGB, 
 
 
 ### Self Check
-- Do the odd numbered `p` elements share a class?
-- Do the even numbered `div` elements have unique IDs?
-- Does the Number 3 element have multiple classes?
+- [x] Do the odd numbered `p` elements share a class?
+- [x] Do the even numbered `div` elements have unique IDs?
+- [?] Does the Number 3 element have multiple classes?
+  - Not initially, I used an ID for the different formats. I'll check the answer and make changes as needed. The final result is very, very similar! I see why the solution was written the way it is... There third & fourth elements both have font size = 24px. Using a class for duplicate 'features' reduces code and makes updating easier.
+  - I'll change my solution. There's an explanation in the solution.css.
+
