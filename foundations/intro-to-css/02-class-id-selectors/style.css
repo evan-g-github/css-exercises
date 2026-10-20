@@ -1,6 +1,10 @@
 .odd {
   background-color: rgb(255, 182, 193);
-  font-family: "Verdana", "DejaVu Sans", sans-serif;
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+  font-size: 24px;
 }
 
 #second {
@@ -8,13 +12,7 @@
   font-size: 36px;
 }
 
-#third {
-  font-size: 24px;
-}
-
 #fourth{
-  /* * **The fourth element**: a light green background, a font size of 24px, and bold */
   background-color: oklab(86.80099999999999% -0.1262 0.0913);
-  font-size: 24px;
   font-weight: bold;
 }
